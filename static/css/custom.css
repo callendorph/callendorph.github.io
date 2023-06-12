@@ -1,0 +1,12 @@
+:root {
+
+    --figure-bg: var(--base03);
+
+    .page-figure {
+	background: var(--figure-bg);
+	text-align: center;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	border-radius: 1em;
+    }
+}
