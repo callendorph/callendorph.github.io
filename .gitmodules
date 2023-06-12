@@ -1,0 +1,3 @@
+[submodule "themes/risotto"]
+	path = themes/risotto
+	url = ssh://git@github.com/callendorph/risotto.git
