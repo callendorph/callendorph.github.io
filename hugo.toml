@@ -35,6 +35,12 @@ url = "mailto:callendorph@gmail.com"
     url = "/about/"
     weight = 10
 
+  [[menu.main]]
+    identifier = "ICEs"
+    name = "Debuggers"
+    url = "/debuggers/"
+    weight = 10
+
 [taxonomies]
 category = "categories"
 tag = "tags"
