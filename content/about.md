@@ -26,5 +26,5 @@ I've worked in startups for the last 10+ years designing, building, debugging, a
 ## Values
 
 1.  __Communication__ - In a group of `N` people, there are `N!` vectors of communication. Your voice is only `N-1` of those vectors. Unless `N=1`, you are not the majority contributor.
-2.  __Diligence__ - Correctness is a means of an end, not an end to itself. The goal is what matters.
+2.  __Diligence__ - Correctness is a means to an end, not an end in itself. The goal is what matters.
 3.  __Fullfillment__ - The feeling of satisfaction when accomplishing a goal and improving others lives in the process.
