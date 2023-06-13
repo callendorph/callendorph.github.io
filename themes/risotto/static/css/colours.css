@@ -1,0 +1,20 @@
+:root {
+	/* Background */
+	--bg: var(--base00);
+	--off-bg: var(--base01);
+	--inner-bg: var(--base02);
+
+	/* Text */
+	--fg: var(--base05);
+	--off-fg: var(--base04);
+	--muted: var(--base03);
+	--link: var(--base0D);
+	--hover: var(--base0C);
+	--highlight: var(--base0A);
+
+	/* Logo */
+	--logo-bg: var(--base00);
+	--logo-text: var(--base05);
+	--logo-host: var(--base0B);
+	--logo-path: var(--base0E);
+}
