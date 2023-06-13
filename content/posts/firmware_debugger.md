@@ -1,7 +1,7 @@
 ---
 title: "Firmware Debugging"
 date: 2023-03-20T12:51:20-07:00
-draft: true
+draft: false
 tag: ["firmware"]
 ---
 
