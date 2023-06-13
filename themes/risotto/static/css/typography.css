@@ -146,9 +146,10 @@ kbd,
 samp {
     background: var(--inner-bg) !important;
     font-family: var(--font-monospace);
-    color: var(--off-fg);
+    color: var(--emphasis);
     padding-left: 0.25rem;
     padding-right: 0.25rem;
+    border-radius: 0.15em;
 }
 
 pre {
