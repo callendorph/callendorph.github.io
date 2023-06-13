@@ -11,7 +11,7 @@ Firmware - like most software - tends to require testing to shake out all the bu
 
 ## The Debugger
 
-High quality tools like debuggers exist for firmware development. An embedded microcontroller (MCU) will typically have a [JTAG](https://en.wikipedia.org/wiki/JTAG) or Serial Wire Debug (SWD) interface for loading code, poking registers, and setting breakpoints. To access the debug interface, the developer needs an in-circuit emulator (ICE), often called a "JTAG adapter", "programmer cable", etc. The ICE is a hardware device that provides a standard interface like USB, ethernet, etc to the host on one end
+High quality tools like debuggers exist for firmware development. An embedded microcontroller (MCU) will typically have a [JTAG](https://en.wikipedia.org/wiki/JTAG) or Serial Wire Debug (SWD) interface for loading code, poking registers, and setting breakpoints. To access the debug interface, the developer needs an in-circuit emulator (ICE), often called a "JTAG adapter", "programmer cable", "debugger", etc. The ICE is a hardware device that provides a standard interface like USB, ethernet, etc to the host on one end
 and a JTAG interface to the MCU on the other. The host is the developer's computer where they can write code from the comfort of their favorite IDE or editor.
 
 <figure class="page-figure">
@@ -50,8 +50,13 @@ There are even "Connector-less" variants - such as the [Tag-Connect](https://www
 </figure>
 
 
-Over the course of a career in embedded systems, you accumulate a samples of many different species of adapters.
+Over the course of a career in embedded systems, you accumulate a samples of many different species of adapters. See the [Debugger Menagerie]({{< ref "/debuggers" >}} "Debugger Menagerie").
 
+### Working with different voltages
+
+Not every design is going to use the same voltage for the MCU's core or IO pins. Though there are standard voltage levels like 3.3V and 1.8V, most devices are specified with a operating range from say 1.8-3.6V. The designer could choose to operate the system at 3.0V if that was optimal for their constraints.
+
+To provide flexibility, the ICE connector will often have a "Target Voltage" pin. This pin allows the DUT to provide a stable supply voltage that will act as the reference for the JTAG or SWD IO signals. Typically, the ICE then has some means of level conversion to generating signals that are optimal for the DUT.
 
 ### Software
 
