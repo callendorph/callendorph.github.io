@@ -24,28 +24,28 @@ and a JTAG interface to the MCU on the other. The host is the developer's comput
 The ICE connects to the Device Under Test (DUT) via a hardware connector. Many MCUs will have a standardized connector like the 10-pin [Cortex Debug](https://developer.arm.com/documentation/101416/0100/Hardware-Description/Target-Interfaces/Cortex-Debug--10-pin-):
 
 <figure class="page-figure">
-<img width="200rem" src="/images/JLINK_CortexDebug.jpg">
+<img width="200rem" src="/images/debuggers/JLINK_CortexDebug.jpg">
 <figcaption> JLink Pro with a 10-pin Cortex Debug connector interface. The connector is a 0.05" pitch 2x5 pin arrangement. Often there will be a blockage on Pin 7 to provide a connector key. </figcaption>
 </figure>
 
 Others use less standard but readily available 0.1" pitch header formats:
 
 <figure class="page-figure">
-<img width="200rem" src="/images/HS2_InlineHeader.jpg">
+<img width="200rem" src="/images/debuggers/HS2_InlineHeader.jpg">
 <figcaption> Digilent HS2 uses a 6-pin 0.1" pitch header receptacle. This is very easy to source and work with during development. </figcaption>
 </figure>
 
 Still others provide you with the flexibility to do whatever you need to do:
 
 <figure class="page-figure">
-<img width="200rem" src="/images/Lattice_IndivHeaders.jpg">
+<img width="200rem" src="/images/debuggers/Lattice_IndivHeaders.jpg">
 <figcaption> Lattice HW-USBN-2B with individual sockets for each signal. </figcaption>
 </figure>
 
 There are even "Connector-less" variants - such as the [Tag-Connect](https://www.tag-connect.com/products) family of adapters.
 
 <figure class="page-figure">
-<img width="200rem" src="/images/TagConnect_6pin.png">
+<img width="200rem" src="/images/debuggers/TagConnect_6pin.png">
 <figcaption> 6-pin Tag Connect without Barbs. </figcaption>
 </figure>
 

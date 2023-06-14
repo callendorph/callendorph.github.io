@@ -5,7 +5,7 @@ draft: false
 ---
 
 <figure class="page-figure">
-<img width="400rem" src="/images/JlinkPlus.jpg">
+<img width="400rem" src="/images/debuggers/JlinkPlus.jpg">
 <figcaption> J-Link Plus with Cortex-M Adapter </figcaption>
 </figure>
 

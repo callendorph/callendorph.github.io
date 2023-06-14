@@ -5,7 +5,7 @@ draft: false
 ---
 
 <figure class="page-figure">
-<img width="400rem" src="/images/Lattice_IndivHeaders.jpg">
+<img width="400rem" src="/images/debuggers/Lattice_IndivHeaders.jpg">
 <figcaption> Lattice, HW-USBN-2B </figcaption>
 </figure>
 

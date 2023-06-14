@@ -5,7 +5,7 @@ draft: false
 ---
 
 <figure class="page-figure">
-<img width="400rem" src="/images/HS2_InlineHeader.jpg">
+<img width="400rem" src="/images/debuggers/HS2_InlineHeader.jpg">
 <figcaption> Digilent HS2 </figcaption>
 </figure>
 
