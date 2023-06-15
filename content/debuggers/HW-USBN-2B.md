@@ -18,7 +18,12 @@ This ICE works for various Lattice FPGAs including:
 
 ## Host Interface
 
-USB 2.0 Mini-B
+USB 2.0 Type Mini-B
+
+<figure class="page-figure">
+<img width="400rem" src="/images/debuggers/Lattice_HW_USBN_2B_HostConn.jpg">
+<figcaption> Lattice, HW-USBN-2B </figcaption>
+</figure>
 
 ## Special Features
 
