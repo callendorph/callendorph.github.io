@@ -1,6 +1,5 @@
 {{ define "main" }}
 {{ .Content }}
-<h1> Posts </h1>
 {{ range where .Site.RegularPages "Section" "posts" }}
 {{ .Render "preview" }}
 {{ end }}
