@@ -12,6 +12,7 @@
 	--hover: var(--base0C);
 	--highlight: var(--base0A);
 	--emphasis: var(--base0F);
+	--headers: var(--base0E);
 
 	/* Logo */
 	--logo-bg: var(--base00);
