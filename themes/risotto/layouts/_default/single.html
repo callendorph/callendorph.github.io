@@ -1,6 +1,7 @@
 {{ define "main" }}
     <header class="content__header">
-        <h1>{{ .Title | markdownify }}</h1>
+      <h1>{{ .Title | markdownify }}</h1>
+      <p> {{.Date | time.Format ":date_long"}} </p>
     </header>
     {{ if .Params.toc }}
     <aside>
