@@ -1,6 +1,6 @@
 baseURL = 'https://callendorph.github.io/'
 languageCode = 'en-us'
-title = 'callendorph@github'
+title = 'Carl Allendorph'
 theme = 'risotto'
 copyright = "© Carl Allendorph, 2023"
 
