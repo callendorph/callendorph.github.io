@@ -2,7 +2,7 @@
 title: "Firmware Testing"
 date: 2023-06-16T14:12:32-07:00
 draft: false
-tag: ["firmware", "testing", "edream"]
+tag: ["firmware", "testing"]
 ---
 
 [Continuous integration](https://en.wikipedia.org/wiki/Continuous_integration) (CI) is the gold standard for most software development processes today. This generally means that for every change made to a piece of software, an automated build and test sequence is performed and the results are published for all team members to see. This extremely useful for catching and correcting many bugs before they get to production.
