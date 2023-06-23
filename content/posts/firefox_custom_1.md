@@ -1,7 +1,8 @@
 ---
 title: "Firefox Customization - URL Bar"
 date: 2023-06-23T14:30:47-07:00
-draft: true
+draft: false
+tag: ["firefox", "customization"]
 ---
 
 Firefox allows customization of the browser's look and feel. The [userchrome.org](https://www.userchrome.org/) has a bunch of content about how to make this change.
