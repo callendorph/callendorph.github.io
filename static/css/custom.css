@@ -1,12 +1,7 @@
 :root {
-
-    --figure-bg: var(--base03);
-
-    .page-figure {
-	background: var(--figure-bg);
-	text-align: center;
-	padding-top: 1em;
-	padding-bottom: 1em;
-	border-radius: 1em;
-    }
+    /**
+       @NOTE - I've found that for whatever reason
+         this file does not apply correctly in firefox.
+	 It is like it doesn't even exist.
+     */
 }
