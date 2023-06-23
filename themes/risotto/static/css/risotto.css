@@ -10,3 +10,9 @@ body {
     background-color: var(--bg);
     color: var(--fg);
 }
+
+/* Fix for Fouc */
+html {
+    visibility: visible;
+    opacity: 1;
+}
