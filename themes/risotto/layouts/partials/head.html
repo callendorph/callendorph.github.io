@@ -18,3 +18,7 @@
 <link rel="stylesheet" href="{{ printf "css/palettes/%s.css" (.Site.Params.theme.palette | default "base16-dark") | absURL }}">
 <link rel="stylesheet" href="{{ "css/risotto.css" | absURL }}">
 <link rel="stylesheet" href="{{ "css/custom.css" | absURL }}">
+
+{{ if not .Site.IsServer }}
+<script async src="{{ .Site.Params.analytics.URL }}" data-website-id="{{ .Site.Params.analytics.DataId }}"></script>
+{{ end }}

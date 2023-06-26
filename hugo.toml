@@ -26,6 +26,9 @@ icon = "fa-solid fa-envelope"
 title = "Email"
 url = "mailto:callendorph@gmail.com"
 
+[params.analytics]
+URL = "https://analytics.umami.is/script.js"
+DataId = "f798c9a3-9213-4755-a1bd-67a539d778af"
 
 [menu]
 
