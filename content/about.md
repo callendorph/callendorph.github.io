@@ -19,7 +19,7 @@ I've worked in startups for the last 10+ years designing, building, debugging, a
 *  **PCBA design** <span class="align-right">[Altium](https://www.altium.com/), [Kicad](https://kicad.org), [JITx](https://www.jitx.com/)</span>
 *  **Software development** <span class="align-right">Python, golang</span>
 *  **Firmware development** <span class="align-right">C</span>
-*  **FPGA developement** <span class="align-right">VHDL </span>
+*  **FPGA development** <span class="align-right">VHDL </span>
 *  **Linux kernel development**
 *  **System architecture design**
 
