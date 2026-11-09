@@ -19,6 +19,6 @@
 <link rel="stylesheet" href="{{ "css/risotto.css" | absURL }}">
 <link rel="stylesheet" href="{{ "css/custom.css" | absURL }}">
 
-{{ if not .Site.IsServer }}
+{{ if not hugo.IsServer }}
 <script async src="{{ .Site.Params.analytics.URL }}" data-website-id="{{ .Site.Params.analytics.DataId }}"></script>
 {{ end }}
